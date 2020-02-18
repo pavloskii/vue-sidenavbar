@@ -1,4 +1,4 @@
-# vue-awesome-sidebar
+# vue-sidenav
 
 ## Project setup
 ```
