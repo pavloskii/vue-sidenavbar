@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <VueAweSidebar>
-      <VueAweSidebarItem label="HOME" icon="fas fa-home" route="/" />
-      <VueAweSidebarItem
+    <VueSidenav>
+      <VueSidenavItem label="HOME" icon="fas fa-home" to="/" />
+      <VueSidenavItem
         label="PROFILE"
         icon="fas fa-address-card"
-        route="/profile"
+        to="/profile"
       />
-      <VueAweSidebarItem
+      <VueSidenavItem
         label="CONTACTS"
         icon="far fa-address-book"
-        route="/contacts"
+        to="/contacts"
       />
-      <VueAweSidebarItem label="PHOTOS" icon="fas fa-image" route="/photos" />
-      <VueAweSidebarItem label="CALL" icon="fas fa-phone" route="/call" />
-    </VueAweSidebar>
+      <VueSidenavItem label="PHOTOS" icon="fas fa-image" to="/photos" />
+      <VueSidenavItem label="CALL" icon="fas fa-phone" to="/call" />
+    </VueSidenav>
 
     <main>
       <router-view></router-view>
@@ -23,14 +23,14 @@
 </template>
 
 <script>
-import VueAweSidebar from "./components/VueAweSidebar.vue";
-import VueAweSidebarItem from "./components/VueAweSidebarItem.vue";
+import VueSidenav from "./components/VueSidenav.vue";
+import VueSidenavItem from "./components/VueSidenavItem.vue";
 
 export default {
   name: "app",
   components: {
-    VueAweSidebar,
-    VueAweSidebarItem
+    VueSidenav,
+    VueSidenavItem
   }
 };
 </script>

@@ -15,7 +15,6 @@
 
 <script>
 export default {
-  name: "VueAweSidebar",
   data: () => ({ isOpen: false })
 };
 </script>

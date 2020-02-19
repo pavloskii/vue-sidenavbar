@@ -1,11 +1,27 @@
-<template functional>
+<template>
   <li class="sidenav__item">
-    <router-link :to="props.route" class="sidenav__link">
-      <i :class="props.icon"></i>
-      <span>{{ props.label }}</span>
-    </router-link>
+    <component :is="tag" v-bind="$attrs" class="sidenav__link">
+      <slot>
+        <i :class="icon"></i>
+        <span>{{ label }}</span>
+      </slot>
+    </component>
   </li>
 </template>
+
+<script>
+export default {
+  inheritAttrs: false,
+  props: {
+    tag: {
+      type: String,
+      default: "router-link"
+    },
+    label: String,
+    icon: String
+  }
+};
+</script>
 
 <style>
 .sidenav__item {
