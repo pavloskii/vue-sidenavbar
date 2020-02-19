@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  name: "VueSidenavbar",
   data: () => ({ isOpen: false })
 };
 </script>

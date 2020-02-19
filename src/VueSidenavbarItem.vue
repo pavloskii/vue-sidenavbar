@@ -11,6 +11,7 @@
 
 <script>
 export default {
+  name: "VueSidenavbarItem",
   inheritAttrs: false,
   props: {
     tag: {
