@@ -1,7 +1,23 @@
 {
-  "name": "vue-awesome-sidebar",
+  "name": "vue-sidenav",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavloskii/vue-sidenav.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "sidenav",
+    "sidebar"
+  ],
+  "author": "Igor Pavloski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavloskii/vue-sidenav/issues"
+  },
+  "homepage": "https://github.com/pavloskii/vue-sidenav#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
