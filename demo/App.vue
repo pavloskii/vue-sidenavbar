@@ -47,10 +47,10 @@ body {
   margin-right: 5px;
 }
 :root {
-  /* --sidebaritem-bgcolor: #461220; */
-  /* --sidebaritem-hover-bgcolor: #8c2f39; */
-  /* --burger-color: gray;
+  --sidebaritem-bgcolor: #461220;
+  --sidebaritem-hover-bgcolor: #8c2f39;
+  --burger-color: gray;
   --burger-bgcolor: red;
-  --burger-hover-bgcolor: pink; */
+  --burger-hover-bgcolor: pink;
 }
 </style>

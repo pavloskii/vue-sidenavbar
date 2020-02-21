@@ -22,4 +22,4 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export default { VueSidenavbar, VueSidenavbarItem };
+export { VueSidenavbar, VueSidenavbarItem };
