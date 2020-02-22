@@ -106,7 +106,7 @@ usage:
 
 ```HTML
 <VueSidenavbar>
-    <VueSidenavbarItem label="HOME" icon="fas fa-home" />
+    <VueSidenavbarItem label="HOME" icon="fas fa-home" to="/home"/>
     <VueSidenavbarItem>
       <a href="/home" class="sidenav__link"><i class="fas fa-home"></i><span>Home</span></a>
     </VueSidenavbarItem>
