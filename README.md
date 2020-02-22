@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="./logo.png" alt="logo of vue-sidenavbar repository">
+  <img height="200" src="./logo.png" alt="logo of vue-sidenavbar repository">
   <br>
   <br>
 </p>
