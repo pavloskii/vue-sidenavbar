@@ -23,3 +23,4 @@ if (GlobalVue) {
 }
 
 export { VueSidenavbar, VueSidenavbarItem };
+export default plugin;
