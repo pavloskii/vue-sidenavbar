@@ -6,7 +6,7 @@ Really simple animated navigation sidebar with only icons or with icons and text
 
 ## Demo
 
-Codesandbox demo - https://codesandbox.io/s/vue-sidenavbar-demo-3pjye
+Codesandbox demo - https://codesandbox.io/embed/vue-sidenavbar-demo-3pjye?hidenavigation=1&theme=dark
 
 To run demo locally, run:
 
