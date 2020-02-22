@@ -1,6 +1,11 @@
 <template>
   <li class="sidenav__item">
-    <component :is="tag" v-bind="$attrs" class="sidenav__link">
+    <component
+      :is="tag"
+      v-bind="$attrs"
+      v-on="$listeners"
+      class="sidenav__link"
+    >
       <slot>
         <i :class="icon"></i>
         <span>{{ label }}</span>

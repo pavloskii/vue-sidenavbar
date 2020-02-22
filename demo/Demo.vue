@@ -1,19 +1,14 @@
 <template>
   <div id="app">
     <VueSidenavbar>
-      <VueSidenavbarItem label="HOME" icon="fas fa-home" to="/" />
       <VueSidenavbarItem
-        label="PROFILE"
-        icon="fas fa-address-card"
-        to="/profile"
+        v-for="route in routes"
+        :key="route.label"
+        :label="route.label"
+        :icon="route.icon"
+        tag="a"
+        @click="consoleLog(`Clicked on ${route.label}`)"
       />
-      <VueSidenavbarItem
-        label="CONTACTS"
-        icon="far fa-address-book"
-        to="/contacts"
-      />
-      <VueSidenavbarItem label="PHOTOS" icon="fas fa-image" to="/photos" />
-      <VueSidenavbarItem label="CALL" icon="fas fa-phone" to="/call" />
     </VueSidenavbar>
 
     <main>
@@ -28,6 +23,20 @@ import VueSidenavbarItem from "../src/VueSidenavbarItem.vue";
 
 export default {
   name: "app",
+  data: () => ({
+    routes: [
+      { label: "HOME", icon: "fas fa-home" },
+      { label: "PROFILE", icon: "fas fa-address-card" },
+      { label: "CONTACTS", icon: "far fa-address-book" },
+      { label: "PHOTOS", icon: "fas fa-image" },
+      { label: "CALL", icon: "fas fa-phone" }
+    ]
+  }),
+  methods: {
+    consoleLog(text) {
+      console.log(text);
+    }
+  },
   components: {
     VueSidenavbar,
     VueSidenavbarItem
@@ -45,7 +54,7 @@ main {
 }
 /* Set vue-router's exactAvtiveClass to active: */
 .active {
-  background-color: #b23a48;
+  background-color: #b23a48 !important;
 }
 /* Configure colors with css: */
 /* :root {
