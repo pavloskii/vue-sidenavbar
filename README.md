@@ -11,6 +11,8 @@ Codesandbox demo - https://codesandbox.io/embed/vue-sidenavbar-demo-3pjye?hidena
 To run demo locally, run:
 
 ```
+git clone https://github.com/pavloskii/vue-sidenavbar.git
+cd vue-sidenavbar
 npm i
 npm run demo
 ```
