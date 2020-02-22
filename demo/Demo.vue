@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import VueSidenavbar from "./src/components/VueSidenavbar.vue";
-import VueSidenavbarItem from "./src/components/VueSidenavbarItem.vue";
+import VueSidenavbar from "../src/VueSidenavbar.vue";
+import VueSidenavbarItem from "../src/VueSidenavbarItem.vue";
 
 export default {
   name: "app",

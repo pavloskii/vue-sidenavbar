@@ -1,6 +1,6 @@
 {
   "name": "vue-sidenavbar",
-  "version": "0.1.3",
+  "version": "1.0.1",
   "author": "Igor Pavloski",
   "license": "MIT",
   "main": "dist/vue-sidenavbar.umd.js",
@@ -49,7 +49,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavloskii/vue-sidenav.git"
+    "url": "git+https://github.com/pavloskii/vue-sidenavbar.git"
   },
   "keywords": [
     "vue",
@@ -57,8 +57,8 @@
     "sidenav",
     "sidebar"
   ],
-  "homepage": "https://github.com/pavloskii/vue-sidenav#readme",
+  "homepage": "https://github.com/pavloskii/vue-sidenavbar#readme",
   "bugs": {
-    "url": "https://github.com/pavloskii/vue-sidenav/issues"
+    "url": "https://github.com/pavloskii/vue-sidenavbar/issues"
   }
 }
