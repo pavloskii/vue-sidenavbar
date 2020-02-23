@@ -7,7 +7,8 @@ Really simple animated navigation sidebar with only icons or with icons and text
 ## Demo
 
 Codesandbox demo - https://codesandbox.io/embed/vue-sidenavbar-demo-3pjye?hidenavigation=1&theme=dark
-Live demo - https://vue-sidenavbar-demo.netlify.com/ [![Netlify Status](https://api.netlify.com/api/v1/badges/65cacb6d-5ea3-4e3f-9b87-e7031c01a95a/deploy-status)](https://app.netlify.com/sites/vue-sidenavbar-demo/deploys)
+
+Live demo [![Netlify Status](https://api.netlify.com/api/v1/badges/65cacb6d-5ea3-4e3f-9b87-e7031c01a95a/deploy-status)](https://app.netlify.com/sites/vue-sidenavbar-demo/deploys) - https://vue-sidenavbar-demo.netlify.com/
 
 To run demo locally, run:
 
